@@ -3,6 +3,7 @@
 }
 #navbar li{
     display:inline-block;
+    margin: 0px 30px;
 }
 
 #navbarbackground{
@@ -20,5 +21,64 @@
 }
 
 #info{
-    text-align:;
+margin:58px 420px 0px 420px;
+font-size:16px;
+font-family:arial;
+}
+
+#spacebreaker{
+    background-color:white;
+    width:3px;
+    height:45px;
+    position:absolute;
+    top:12px;
+    left:300px
+}
+
+#spacebreaker1{
+    background-color:white;
+    width:3px;
+    height:45px;
+    position:absolute;
+    top:12px;
+    left:490px
+}
+
+#spacebreaker2{
+    background-color:white;
+    width:3px;
+    height:45px;
+    position:absolute;
+    top:12px;
+    left:690px;
+}
+
+#spacebreaker3{
+    background-color:white;
+    width:3px;
+    height:45px;
+    position:absolute;
+    top:12px;
+    left:890px
+}
+
+#spacebreaker4{
+    background-color:white;
+    width:3px;
+    height:45px;
+    position:absolute;
+    top:12px;
+    left:1090px
+}
+
+
+#infoextended{
+    margin:15px 0px 0px 420px;
+    font-size:16px;
+    font-family:arial;
+}
+
+#navbar li a:hover {
+    font-size:35px;
+
 }
