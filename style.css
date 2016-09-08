@@ -3,7 +3,7 @@
 }
 #navbar li{
     display:inline-block;
-    margin: 0px 30px;
+    margin: 0px 46px;
 }
 
 #navbarbackground{
@@ -79,6 +79,11 @@ font-family:arial;
 }
 
 #navbar li a:hover {
-    font-size:35px;
+    font-size:37px;
 
+}
+
+#hardwaretable {
+    font-size:20px;
+    margin:55px 0px;
 }
