@@ -24,7 +24,7 @@ calculatorButton.addEventListener("click", function() {
     if (calculateFunction==="/") {
         var answer = +num1 / +num2;
     }
-    if (calculateFunction==="^") {
+    if (calculateFunction==="^") {  
         var answer=Math.pow(+num1, +num2)
     }
     if (calculateFunction==="%") {
