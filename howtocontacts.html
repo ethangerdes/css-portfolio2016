@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> </title>
+    </head>
+<div><p>&#47;&#47; Defines my 
+variables and links them to my 
+html<br />
+var contactName &#61; document&#46;getElementById&#40;&#34;contactName&#34;&#41;&#59;<br />
+var contactPhone &#61; 
+document&#46;getElementById&#40;&#34;contactPhone&#34;&#41;&#59;<br />
+var contactEmail &#61; document&#46;getElementById&#40;&#34;contactEmail&#34;&#41;&#59;<br />
+var contactBirthdate &#61; 
+document&#46;getElementById&#40;&#34;contactBirthdate&#34;&#41;&#59;<br />
+var contactCountry &#61; document&#46;getElementById&#40;&#34;contactCountry&#34;&#41;&#59;<br />
+var contactState &#61; 
+document&#46;getElementById&#40;&#34;contactState&#34;&#41;&#59;<br />
+var contactCity &#61; document&#46;getElementById&#40;&#34;contactCity&#34;&#41;&#59;<br />
+var contactStreet &#61; 
+document&#46;getElementById&#40;&#34;contactStreet&#34;&#41;&#59;<br />
+var submitButton &#61; document&#46;getElementById&#40;&#34;submitButton&#34;&#41;&#59;<br />
+var contactCards &#61; 5
+document&#46;getElementById&#40;&#34;contactCards&#34;&#41;&#59;<br />
+<br />
+</p>
+<p>First I created my variables and linked them to my HTML elements.</p>
+<p>
+    &#47;&#47;Listens for 
+the user to click on the 
+submit button then runs its function<br />
+submitButton&#46;addEventListener&#40;&#34;click&#34;&#44; 
+function&#40;&#41; &#123;<br />
+    &#47;&#47;Creates 
+a table with the information that 
+was enetered into the input boxes 
+and adds it into a div 
+in the html&#44; also assigns the 
+table a class to style it&#46;<br />
+
+   contactCards&#46;innerHTML &#43;&#61; &#34;&#60;div 
+class&#61;&#39;contactCard&#39;&#62;&#60;center&#62; &#60;table&#62; &#60;tr&#62; &#60;th&#62; &#34; &#43; 
+contactName&#46;value &#43; &#34;&#60;&#47;th&#62; &#60;th&#62;&#34; &#43; contactPhone&#46;value 
+&#43; &#34;&#60;&#47;th&#62; &#60;th&#62;&#34; &#43; contactEmail&#46;value &#43; 
+&#34;&#60;&#47;th&#62; &#60;th&#62;&#34; &#43; contactBirthdate&#46;value &#43; &#34;&#60;&#47;th&#62; 
+&#60;&#47;tr&#62; &#60;tr&#62; &#60;th&#62;&#34; &#43; contactCountry&#46;value &#43; 
+&#34;&#60;&#47;th&#62; &#60;th&#62;&#34; &#43; contactState&#46;value &#43; &#34;&#60;&#47;th&#62; 
+&#60;th&#62;&#34; &#43; contactCity&#46;value &#43; &#34;&#60;&#47;th&#62; &#60;th&#62;&#34; 
+&#43; contactStreet&#46;value &#43; &#34;&#60;&#47;th&#62; &#60;&#47;tr&#62; &#60;&#47;table&#62;&#60;center&#62; 
+&#60;&#47;div&#62; &#34;&#59;<br />
+    &#47;&#47;Clears 
+the input boxes after contact button is pressed   
+<br />
+    contactName&#46;value &#61; 
+null&#59;<br />
+    contactPhone&#46;value &#61; 
+null&#59;<br />
+    contactEmail&#46;value &#61; 
+null&#59;<br />
+    contactBirthdate&#46;value &#61; 
+null&#59;<br />
+    contactCountry&#46;value &#61; 
+null&#59;<br />
+    contactState&#46;value &#61; 
+null&#59;<br />
+    contactCity&#46;value &#61; 
+null&#59;<br />
+    contactStreet&#46;value &#61; 
+null&#59;<br />
+&#125;&#41;&#59;<br />
+&#46;</p><p>I then created a listener that listens for when the HTML submit button is pressed. If the button is clicked, then a new card is created using all of the infromation the user entered into the form. The input fields are then cleared.</p></div>
+    <body>
+
+    </body>
+</html>
